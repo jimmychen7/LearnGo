@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: LearnGo
+  host: learngo
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-18
